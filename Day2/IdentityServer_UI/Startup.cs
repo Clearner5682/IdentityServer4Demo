@@ -44,6 +44,7 @@ namespace IdentityServer_UI
                 options.Events.RaiseInformationEvents = true;
                 options.Events.RaiseFailureEvents = true;
                 options.Events.RaiseSuccessEvents = true;
+
             })
                 .AddTestUsers(TestUsers.Users)
                 .AddInMemoryIdentityResources(Config.IdentityResources)
